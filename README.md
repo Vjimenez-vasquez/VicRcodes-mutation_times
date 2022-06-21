@@ -1,5 +1,9 @@
 # VicRCodes - mutation_times![lambda_spike](https://user-images.githubusercontent.com/89874227/174873913-22ef4978-25d2-4863-beab-bdb94d50b102.png)
-
+## Description
+"mutation_times" generates an intractive temporal visualization of
+mutations, allowing the user to track for specific and even the
+ discovery and identification of new mutational patterns. It only requires both 
+nextclade and GISAID outputs merged as single data. 
 
 ## Usage 
 ```r
@@ -33,5 +37,7 @@ mutations_time(data=data,xmin="2020-05-01",xmax="2022-02-25",ymin=0,ymax=380,fre
 mutations_time(data=data,xmin="2020-05-01",xmax="2022-02-25",ymin=0,ymax=380,freq=2,title="Lambda:ORF6",region="ORF6")
 mutations_time(data=data,xmin="2020-05-01",xmax="2022-02-25",ymin=0,ymax=380,freq=2,title="Lambda:ORF8",region="ORF8")
 mutations_time(data=data,xmin="2020-05-01",xmax="2022-02-25",ymin=0,ymax=380,freq=2,title="Lambda:ORF9b",region="ORF9b")
-
 ``` 
+
+## output
+An Interactive temporal visualization plotly
