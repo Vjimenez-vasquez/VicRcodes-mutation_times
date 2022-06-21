@@ -1,4 +1,5 @@
-# VicRCodes - mutation_times
+# VicRCodes - mutation_times![lambda_spike](https://user-images.githubusercontent.com/89874227/174873913-22ef4978-25d2-4863-beab-bdb94d50b102.png)
+
 
 ## Usage 
 ```r
