@@ -41,3 +41,4 @@ mutations_time(data=data,xmin="2020-05-01",xmax="2022-02-25",ymin=0,ymax=380,fre
 
 ## output
 An Interactive temporal visualization plotly
+ showing the identified mutations in the right
