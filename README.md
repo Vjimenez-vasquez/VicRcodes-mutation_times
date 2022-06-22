@@ -1,10 +1,10 @@
 # VicRCodes - mutation_times![lambda_spike](https://user-images.githubusercontent.com/89874227/174873913-22ef4978-25d2-4863-beab-bdb94d50b102.png)
 ## Description
 "mutation_times" generates an intractive temporal visualization of
-aminoacid mutations, allowing the user to track for specific and even the
- discovery and identification of new mutational patterns in every coding region 
-identified by NEXTCLADE. It only requires both 
-nextclade and GISAID outputs merged as single data. 
+aminoacid mutations, allowing the user to track for specific and even the 
+discovery and identification of new mutational patterns in every coding region 
+identified by NEXTCLADE. It only requires both NEXTCLADE and GISAID outputs 
+merged as single data. 
 
 ## Usage 
 ```r
@@ -51,5 +51,5 @@ mutations_time(data=data,xmin="2020-05-01",xmax="2022-02-25",ymin=0,ymax=380,fre
 ``` 
 
 ## output
-An Interactive temporal visualization plotly
- showing the identified mutations in the right
+An Interactive temporal visualization plotly 
+showing the identified mutations in the right legend
