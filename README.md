@@ -45,9 +45,9 @@ mutations_time(data=data,xmin="2020-05-01",xmax="2022-02-25",ymin=0,ymax=380,fre
 - xmax: maximum date range to consider in the plot
 - ymin: minimum mutational frequency to consider in the y-axis
 - ymax: maximum mutational frequency to consider in the y-axis
-- freq: minimum mutatiional frequency to consider in the analysis
+- freq: minimum mutatiional frequency to consider in the analysis expressed in % (0-100)
 - title: plot title
-- region: genomic region to analyze (S, ORF1a, ORF3, etc)
+- region: genomic region to analyze (S, ORF1a, ORF3, etc) inferred with "regions" command
 ``` 
 
 ## Output
