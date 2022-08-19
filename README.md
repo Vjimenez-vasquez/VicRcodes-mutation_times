@@ -54,11 +54,11 @@ mutations_time(data=data,xmin="2020-05-01",xmax="2022-02-25",ymin=0,ymax=380,fre
 An Interactive temporal visualization plotly 
 showing the identified mutations in the right legend
 
-## mutations_time_monkeypox
-## Usage 
+## mutations_time_monkeypox (for "patient_status_metadata" file downloaded from GISAID")
 ```r
 source("mutations_time.R")
 data <- read.csv("patient_status.tsv", header=TRUE, sep="\t")
 regions(data)
 mutations_time(data=data,xmin="2000-01-01",xmax="2022-08-25",ymin=0,ymax=5,freq=0.5,title="Monkey",region="H4L")
+enjoy
 ```
