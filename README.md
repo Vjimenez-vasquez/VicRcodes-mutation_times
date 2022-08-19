@@ -56,6 +56,16 @@ showing the identified mutations in the right legend
 
 ## mutations_time_monkeypox (for "patient_status_metadata" file downloaded from GISAID")
 ```r
+#install.packages("lubridate")#
+#install.packages("plotly")#
+#install.packages("dplyr")#
+#install.packages("epical")#
+
+library(lubridate)
+library(plotly)
+library(dplyr)
+library(epical)
+
 source("mutations_time.R")
 data <- read.csv("patient_status_metadata.tsv", header=TRUE, sep="\t")
 regions(data)
